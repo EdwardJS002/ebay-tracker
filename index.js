@@ -10,7 +10,7 @@ let results = []
 
 const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_CONTEXT,
-    maxConcurrency: 3,
+    maxConcurrency: 7,
     monitor: true,
 })
 
