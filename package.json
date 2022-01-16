@@ -1,0 +1,26 @@
+{
+  "name": "ebay-tracker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardJS002/ebay-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardJS002/ebay-tracker/issues"
+  },
+  "homepage": "https://github.com/EdwardJS002/ebay-tracker#readme",
+  "dependencies": {
+    "dotenv": "^12.0.3",
+    "puppeteer": "^13.0.1",
+    "puppeteer-cluster": "^0.22.0",
+    "xlsx": "^0.17.5"
+  }
+}
