@@ -11,7 +11,7 @@ let results = []
 const cluster = await Cluster.launch({
     concurrency: Cluster.CONCURRENCY_CONTEXT,
     maxConcurrency: 7,
-    monitor: true,
+    monitor: false,
 })
 
 await cluster.task(async ({ page, data: element }) => {
